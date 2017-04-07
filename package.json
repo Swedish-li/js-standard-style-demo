@@ -4,7 +4,7 @@
   "description": "Javascript standard 代码规范学习示例",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node index.js"
   },
   "repository": {
     "type": "git",
