@@ -1,0 +1,27 @@
+{
+  "name": "js-standard-style-demo",
+  "version": "1.0.0",
+  "description": "Javascript standard 代码规范学习示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swedish-li/js-standard-style-demo.git"
+  },
+  "keywords": [
+    "javascript",
+    "standard",
+    "style"
+  ],
+  "author": "Swedish-li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swedish-li/js-standard-style-demo/issues"
+  },
+  "homepage": "https://github.com/Swedish-li/js-standard-style-demo#readme",
+  "devDependencies": {
+    "standard": "^10.0.0"
+  }
+}
