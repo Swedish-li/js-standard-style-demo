@@ -34,3 +34,46 @@ var message = 'Hello ' + 'JavaScript'
 showInfo(message)
 
 showMsg(os.homedir())
+
+//   5.5、单行代码块两边加空格:Requires a space after '{'.
+function foo () { return true }
+
+//   5.6、函数调用时，标示符与括号间不留空格: Unexpected space between function name and paren.
+console.log('Hello World!')
+//   5.7、键值对当中冒号与值之间要留空白: Missing space before value for key 'key'.
+var obj = {
+  key: 'value'
+}
+
+//   5.8、遇到分号时要后留前不留: Missing whitespace after semicolon.
+var items = [1, 3]
+
+for (let i = 0; i < items.length; i++) { console.log(i) }
+
+//  5.9、圆括号间不加空格
+if (foo()) {
+  console.log('Hello World!')
+  console.log(obj)
+}
+
+//  5.10、一元运算符后边不加空格
+var type = typeof !items
+console.log(type)
+
+//  5.11、注释首尾留空格。
+//  5.12、模板字符串中变量前后不加空格
+const temp = `Hello ${message}`
+
+console.log(temp)
+
+// 6、关于分号
+//  6.1 不要使用分号结束一段代码
+//  6.2 不要使用 (, [, or ` 等作为一行的开始。在没有分号的情况下代码压缩后会导致报错，而坚持这一规范则可避免出错。
+
+;(function () {
+  window.alert('ok')
+}())
+
+;[1, 2, 3].forEach(function (e) { console.log(e) })
+
+;`hello`.indexOf('o')
