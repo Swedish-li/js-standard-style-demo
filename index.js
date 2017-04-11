@@ -4,6 +4,7 @@ const os = require('os')
 
 // 1、注释 ：Expected space or tab after '//' in comment.
 // 在单行注释的符号和注释之间需要有空格或tab间隔
+/* 多行注释的首尾要留空格 */
 
 // 2、缩进：Expected indentation of 2 spaces but found 0.
 // 使用两个空格作为缩进
@@ -71,9 +72,17 @@ console.log(temp)
 //  6.2 不要使用 (, [, or ` 等作为一行的开始。在没有分号的情况下代码压缩后会导致报错，而坚持这一规范则可避免出错。
 
 ;(function () {
-  window.alert('ok')
+  console.log('ok')
 }())
 
 ;[1, 2, 3].forEach(function (e) { console.log(e) })
 
 ;`hello`.indexOf('o')
+
+// 7、变量声明
+
+// 7.1、一个var关键字只声明一个变量
+// 7.2、变量和函数统一使用驼峰命名法
+// 7、3、构造函数使用大写字母开头
+// 7.4、避免修改使用const声明的变量
+// 7.5、不要使用八进制字面量
