@@ -1,3 +1,5 @@
+/* global $ */
+
 // JavaScript standard Style
 
 const os = require('os')
@@ -86,3 +88,13 @@ console.log(temp)
 // 7、3、构造函数使用大写字母开头
 // 7.4、避免修改使用const声明的变量
 // 7.5、不要使用八进制字面量
+
+$(function () {
+  console.log('全局变量')
+})
+
+// 对一行禁用所有规则
+file = 'I know what I am doing' // eslint-disable-line 
+
+// 只禁用某条规则
+var newFile = 'not used File' // eslint-disable-line no-unused-vars
