@@ -4,7 +4,6 @@
 
 * [官方说明文档][1]
 * [简体中文文档][2]
-* [官方文档中文翻译][3]
 
 ## 主要特性
 
@@ -49,7 +48,7 @@ $ standard --verbose
 
 ## 徽章
 
-[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)][4]
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)][3]
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)][1]
 
@@ -58,3 +57,4 @@ $ standard --verbose
 [2]:https://github.com/feross/standard/blob/master/docs/RULES-zhcn.md
 [3]:https://standardjs.com/readme-zhcn.html
 [4]:https://github.com/feross/standard
+
