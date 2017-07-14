@@ -46,6 +46,12 @@ $ standard --verbose
     file = 'I know what I am doing' // eslint-disable-line 
 ```
 
+当前文件禁用所有规则
+
+``` javascript
+    /* eslint-disable */
+```
+
 
 ## 徽章
 
