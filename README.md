@@ -5,6 +5,7 @@
 * [官方说明文档][1]
 * [官方文档中文版][3]
 * [简体中文文档][2]
+* [ESLint Rules][5]
 
 ## 主要特性
 
@@ -64,4 +65,5 @@ $ standard --verbose
 [2]:https://github.com/feross/standard/blob/master/docs/RULES-zhcn.md
 [3]:https://standardjs.com/readme-zhcn.html
 [4]:https://github.com/feross/standard
+[5]:http://eslint.cn/docs/rules/
 
